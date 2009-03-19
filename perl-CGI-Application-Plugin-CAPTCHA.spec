@@ -14,7 +14,7 @@ BuildRequires: perl(CGI::Application)
 BuildRequires: perl(GD::SecurityImage)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Module::Build::Compat)
-BuildRequires: perl(String::Random)
+BuildRequires: perl(Data::Random)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::WWW::Mechanize)
 BuildArch: noarch
