@@ -17,6 +17,7 @@ BuildRequires: perl(Module::Build::Compat)
 BuildRequires: perl(Data::Random)
 BuildRequires: perl(Test::Exception)
 BuildRequires: perl(Test::WWW::Mechanize)
+BuildRequires: perl(HTTP::Server::Simple::CGI)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
