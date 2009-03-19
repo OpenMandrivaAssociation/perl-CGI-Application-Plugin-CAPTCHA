@@ -13,8 +13,10 @@ Source:     http://www.cpan.org/modules/by-module/CGI/%{module}-%{version}.tar.g
 BuildRequires: perl(CGI::Application)
 BuildRequires: perl(GD::SecurityImage)
 BuildRequires: perl(Module::Build)
-BuildRequires: perl(Test::More)
 BuildRequires: perl(Module::Build::Compat)
+BuildRequires: perl(String::Random)
+BuildRequires: perl(Test::Exception)
+BuildRequires: perl(Test::WWW::Mechanize)
 BuildArch: noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
