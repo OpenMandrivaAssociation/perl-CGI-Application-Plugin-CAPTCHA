@@ -1,6 +1,6 @@
 %define module   CGI-Application-Plugin-CAPTCHA
 %define version    0.01
-%define release    %mkrel 1
+%define release    %mkrel 2
 
 Name:       perl-%{module}
 Version:    %{version}
