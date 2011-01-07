@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/CGI/%{upstream_name}-%{upstrea
 
 BuildRequires: perl(CGI::Application)
 BuildRequires: perl(GD::SecurityImage)
+BuildRequires: perl(Digest::SHA1)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Module::Build::Compat)
 BuildRequires: perl(Data::Random)
