@@ -2,14 +2,14 @@
 %define upstream_version 0.04
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Easily create, use, and verify CAPTCHAs in
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/CGI/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/cromedome/cgi-application-plugin-captcha
+Source0:	https://cpan.metacpan.org/authors/id/C/CR/CROMEDOME/CGI-Application-Plugin-CAPTCHA-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
