@@ -1,15 +1,13 @@
 %define upstream_name    CGI-Application-Plugin-CAPTCHA
-%define upstream_version 0.04
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	6
+Version:	0.04
+Release:	7
 
 Summary:	Easily create, use, and verify CAPTCHAs in
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/cromedome/cgi-application-plugin-captcha
-Source0:	https://cpan.metacpan.org/authors/id/C/CR/CROMEDOME/CGI-Application-Plugin-CAPTCHA-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CR/CROMEDOME/CGI-Application-Plugin-CAPTCHA-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -40,7 +38,7 @@ eventually be able to bypass a CAPTCHA, but it should be able to shut down
 your average script-kiddie.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -69,8 +67,7 @@ make test
 
 * Tue Jul 28 2009 Jérôme Quelin <jquelin@mandriva.org> 0.10.0-1mdv2011.0
 + Revision: 401709
-- rebuild using %%perl_convert_version
-- fixed license field
+- rebuild using %0.04 fixed license field
 
 * Fri May 15 2009 Jérôme Quelin <jquelin@mandriva.org> 0.01-2mdv2010.0
 + Revision: 375965
